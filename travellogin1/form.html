@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LOGIN PAGE</title>
+		<link rel="stylesheet" type="text/css" href="loginstyle.css">
+	</head>
+	<body>
+		<div class="header">
+		LOGIN INTO TRAVEL WORLD
+		</div>
+		<div class="image">
+		<div class="form">	
+		<form action="action_page.php" method="post">
+		
+			<fieldset>
+				
+				<label><b>FIRST NAME: </b></label><br>
+				<input type="text" placeholder="Enter Firstname" name="first name" required><br><br>
+				<b>LAST NAME:</b> <br>
+				<input type="text" placeholder="Enter Lastname" name="last name" required><br><br>
+				<b>EMAIL ID:</b><br>
+				<input type="text" placeholder="Enter Email Id" name="emailid" required><br><br>
+				<b>PASSWORD:</b><br>
+				<input type="text" placeholder="Enter Password" name="password" required><br><br>
+				<input type="radio" name="gender" value="female" checked><b>Female</b><br>
+				<input type="radio" name="gender" value="male"><b>Male</b><br><br>
+					<textarea name="message" rows="05" cols="20">text here... </textarea><br><br>
+				<button class="button">submit</button>
+				<input type="checkbox" checked="checked"><b style ="color:green;">Remember Me.</style></b><br><br>
+					<div>
+						<button class="button">Cancel</button>
+    					<span class="psw"><b style ="color:green;">Forgot</b> <a href="#"><b style ="color:green;">password?</b></a></span>
+    				</div>
+			</fieldset>
+			
+		</form>
+		</div>
+		</div>
+	</body>
+</html>

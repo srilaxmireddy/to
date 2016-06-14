@@ -1,0 +1,49 @@
+
+.header{
+	width: 100%;
+	background:linen;
+	font-size:40px;
+	height:60px;
+	padding:5px;
+	width:100%;
+	text-align:center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	}
+.form{
+	color:black;
+	font-family: verdana;
+	font-size:100%;
+	
+	width:30%;
+	height:40%;
+	float:center;
+	}
+.button {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.image{
+      width: 100% !important;
+      height: 550px !important;
+      background: url(https://image.jimcdn.com/app/cms/image/transf/dimension=980x10000:format=jpg/path/s0785f1a12dd449fe/image/i7218e9ecbfde6f51/version/1456239414/san-francisco.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 100% 100%;
+        opacity: 0.5;
+    }
